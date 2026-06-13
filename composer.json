@@ -1,0 +1,26 @@
+{
+    "name": "rosgear/rg-wd-article",
+    "description": "Widget \"Article\" for the RosGear web application",
+    "keywords": ["rosgear", "cms", "widget"],
+    "homepage": "https://rosgear.ru/component/rg-wd-article/",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Tivonenko",
+            "email": "anton.tivonenko@gmail.com",
+            "homepage": "https://rosgear.ru/"
+        }
+    ],
+    "require": {
+        "rosgear/ge2-composer-plugin": "*"
+    },
+    "extra": {
+        "ge": {
+            "id": "rg.wd.article",
+            "vendor": "ge"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
